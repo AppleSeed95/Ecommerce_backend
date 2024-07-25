@@ -1,0 +1,17 @@
+.select2 {width: 100% !important;}
+.hide{display: none;transition: all;}
+#link-type::after{
+  content: "/";
+  display: inline-block;
+  position: absolute;
+  right: -4px;
+  top: 5px;
+  /* border: 1px solid #444;*/
+  height: 30px;
+}
+.dynamicRows .rowHover:last-child .addmore {
+  display: inline-block;
+}
+.dynamicRows .action .addmore {
+  display: none;
+}
